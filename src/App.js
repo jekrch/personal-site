@@ -27,7 +27,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
           linkedin
         </a>
       </Typography>
@@ -37,7 +37,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
           github
         </a>
       </Typography>
@@ -47,7 +47,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
           logic lectures
         </a>
       </Typography>
@@ -57,7 +57,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center">
+        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
           chord buildr
         </a>
       </Typography>
@@ -68,8 +68,8 @@ function App() {
     <div className="App">
 
 
-      <Navbar className="mx-auto max-w-screen-xl py-2 px-4 lg:px-8 lg:py-4">
-        <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
+      <Navbar className="min-w-full mx-auto py-2 px-4 lg:px-8 lg:py-4 shadow-none bg-tealeaf border-0 rounded-none">
+        <div className="container mx-auto flex items-center justify-between">
           <Typography
             as="a"
             href="#"
@@ -124,12 +124,11 @@ function App() {
       </Navbar>
 
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
 
-        <nav class="bg-white shadow mb-10"></nav>
-        <h1 className="text-3xl font-bold">
+        {/* <h1 className="text-3xl font-bold">
           hello world
-        </h1>
+        </h1> */}
       </header>
     </div>
   );

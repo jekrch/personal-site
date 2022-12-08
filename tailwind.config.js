@@ -6,6 +6,9 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    colors: {
+      'tealeaf': '#5B8592'
+    },
     extend: {},
   },
   plugins: [],
