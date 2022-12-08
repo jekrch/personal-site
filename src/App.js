@@ -27,7 +27,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
+        <a href="#" className="flex items-center text-gray-400 hover:text-gray-300">
           linkedin
         </a>
       </Typography>
@@ -37,7 +37,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
+        <a href="#" className="flex items-center text-gray-400 hover:text-gray-300">
           github
         </a>
       </Typography>
@@ -47,7 +47,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
+        <a href="#" className="flex items-center text-gray-400 hover:text-gray-300">
           logic lectures
         </a>
       </Typography>
@@ -57,7 +57,7 @@ function App() {
         color="blue-gray"
         className="p-1 font-normal"
       >
-        <a href="#" className="flex items-center text-gray-300 hover:text-teal-100">
+        <a href="#" className="flex items-center text-gray-400 hover:text-gray-300">
           chord buildr
         </a>
       </Typography>
@@ -68,7 +68,7 @@ function App() {
     <div className="App">
 
 
-      <Navbar className="min-w-full mx-auto py-2 px-4 lg:px-8 lg:py-4 shadow-none bg-tealeaf border-0 rounded-none">
+      <Navbar className="min-w-full mx-auto py-2 px-4 lg:px-8 lg:py-4 shadow-none bg-tealeaf border-0 rounded-none bg-opacity-100">
         <div className="container mx-auto flex items-center justify-between">
           <Typography
             as="a"
@@ -123,13 +123,6 @@ function App() {
         </MobileNav>
       </Navbar>
 
-      <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-
-        {/* <h1 className="text-3xl font-bold">
-          hello world
-        </h1> */}
-      </header>
     </div>
   );
 }
