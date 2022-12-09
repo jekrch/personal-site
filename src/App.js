@@ -8,6 +8,7 @@ import {
   Button,
   IconButton,
 } from "@material-tailwind/react";
+import NavBar from "./components/NavBar.tsx"
 
 function App() {
 
@@ -66,9 +67,9 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar/>
 
-
-      <Navbar className="min-w-full mx-auto py-2 px-4 lg:px-8 lg:py-4 shadow-none bg-tealeaf border-0 rounded-none bg-opacity-100">
+      {/* <Navbar className="min-w-full mx-auto py-2 px-4 lg:px-8 lg:py-4 shadow-none bg-tealeaf border-0 rounded-none bg-opacity-100">
         <div className="container mx-auto flex items-center justify-between">
           <Typography
             as="a"
@@ -121,7 +122,7 @@ function App() {
         <MobileNav open={openNav}>
           {navList}        
         </MobileNav>
-      </Navbar>
+      </Navbar> */}
 
     </div>
   );
